@@ -128,13 +128,7 @@ nav a:hover {
 
 div.title h1 {
     font-size: 7rem;
-    /* padding-bottom: 5% */
 }
-
-/* section.title-and-image .header-img img {
-    width: 100%;
-    max-width: 100%;
-} */
 
 .get-started {
     border: 1px solid black;
@@ -161,12 +155,14 @@ div.title h1 {
 
 .section50 {
 	width: 50%;
-	padding: 4% 0;
+    padding: 4% 0;
+    transition: width 2s;
 }
 
 .section33 {
 	width: 33%;
-	padding: 4% 0;
+    padding: 4% 0;
+    transition: width 2s;
 }
 
 footer {
@@ -191,15 +187,11 @@ footer {
 
     header {
 		width: 100%;
-		display: flex;
 		flex-direction: column-reverse;
         margin: auto;
-        background-color: white;
     }
     
     nav {
-		display: flex;
-        justify-content: space-between;
         width: 98%;
         max-width: 100%;
         margin: 2% 1%;
@@ -264,9 +256,9 @@ footer {
         padding: 5% 0 12%;
 	}
     
-    div.title h1 {
+    /* div.title h1 {
         font-size: 7rem;
-    }
+    } */
 
     .get-started {
         margin-top: 6%;
@@ -281,7 +273,7 @@ footer {
         margin: 0 auto;
         padding: 6% 0;
     }
-    
+
 	.hero-one {
 		flex-direction: column;
         align-items: center;
@@ -292,7 +284,6 @@ footer {
 		width: 100%;
         padding-bottom: 2%;
         margin: 1% 0;
-
 	}
 
     .wide-img {
@@ -301,7 +292,7 @@ footer {
 
 	.section33 {
 		width: 100%;
-		padding: 5% 0;
+        padding: 5% 0;
 	}
 
     footer {
